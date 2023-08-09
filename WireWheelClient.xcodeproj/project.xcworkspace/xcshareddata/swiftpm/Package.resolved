@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "wirewheelsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wraza0116/WireWheelSDK.git",
+      "state" : {
+        "revision" : "076a221c3af843072b8c4230d89d5cde25740cb8",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

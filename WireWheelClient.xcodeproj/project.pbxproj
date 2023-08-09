@@ -16,6 +16,7 @@
 		BDCD50EC2A83AAE100130356 /* WireWheelClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50EB2A83AAE100130356 /* WireWheelClientTests.swift */; };
 		BDCD50F62A83AAE100130356 /* WireWheelClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50F52A83AAE100130356 /* WireWheelClientUITests.swift */; };
 		BDCD50F82A83AAE100130356 /* WireWheelClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50F72A83AAE100130356 /* WireWheelClientUITestsLaunchTests.swift */; };
+		BDCD51062A83C61100130356 /* WireWheelSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BDCD51052A83C61100130356 /* WireWheelSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCD51062A83C61100130356 /* WireWheelSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = WireWheelClient;
+			packageProductDependencies = (
+				BDCD51052A83C61100130356 /* WireWheelSDK */,
+			);
 			productName = WireWheelClient;
 			productReference = BDCD50D12A83AAE000130356 /* WireWheelClient.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = BDCD50C82A83AAE000130356;
+			packageReferences = (
+				BDCD51042A83C61100130356 /* XCRemoteSwiftPackageReference "WireWheelSDK" */,
+			);
 			productRefGroup = BDCD50D22A83AAE000130356 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +610,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDCD51042A83C61100130356 /* XCRemoteSwiftPackageReference "WireWheelSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wraza0116/WireWheelSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDCD51052A83C61100130356 /* WireWheelSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDCD51042A83C61100130356 /* XCRemoteSwiftPackageReference "WireWheelSDK" */;
+			productName = WireWheelSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDCD50C92A83AAE000130356 /* Project object */;
 }
