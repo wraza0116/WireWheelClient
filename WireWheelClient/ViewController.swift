@@ -13,6 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func btnOpenSDKPressedAction(_ sender:UIButton) {
+        print("btnOpenSDKPressedAction")
+    }
 
 
 }
