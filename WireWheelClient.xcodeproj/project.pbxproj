@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD5E3EA52A8E5E70006E123E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E3EA42A8E5E70006E123E /* Constant.swift */; };
+		BD95D9592AA0C2BC00A603D1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD95D9582AA0C2BC00A603D1 /* String+Extension.swift */; };
+		BD97ABAC2A95464B00DEC90B /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD97ABAB2A95464B00DEC90B /* PrivacyPolicyViewController.swift */; };
+		BD98CBB22A9DDF6100A93B1E /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD98CBAE2A9DDF6000A93B1E /* OpenSans-Regular.ttf */; };
+		BD98CBB32A9DDF6100A93B1E /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD98CBAF2A9DDF6000A93B1E /* OpenSans-Medium.ttf */; };
+		BD98CBB42A9DDF6100A93B1E /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD98CBB02A9DDF6100A93B1E /* OpenSans-SemiBold.ttf */; };
+		BD98CBB52A9DDF6100A93B1E /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD98CBB12A9DDF6100A93B1E /* OpenSans-Bold.ttf */; };
+		BDBB66C62AA26A9900666865 /* WireWheelSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BDBB66C52AA26A9900666865 /* WireWheelSDK */; };
 		BDCD50D52A83AAE000130356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50D42A83AAE000130356 /* AppDelegate.swift */; };
 		BDCD50D72A83AAE000130356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50D62A83AAE000130356 /* SceneDelegate.swift */; };
 		BDCD50D92A83AAE000130356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50D82A83AAE000130356 /* ViewController.swift */; };
@@ -16,7 +24,6 @@
 		BDCD50EC2A83AAE100130356 /* WireWheelClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50EB2A83AAE100130356 /* WireWheelClientTests.swift */; };
 		BDCD50F62A83AAE100130356 /* WireWheelClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50F52A83AAE100130356 /* WireWheelClientUITests.swift */; };
 		BDCD50F82A83AAE100130356 /* WireWheelClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD50F72A83AAE100130356 /* WireWheelClientUITestsLaunchTests.swift */; };
-		BDCD51062A83C61100130356 /* WireWheelSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BDCD51052A83C61100130356 /* WireWheelSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD5E3EA42A8E5E70006E123E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BD95D9582AA0C2BC00A603D1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BD97ABAB2A95464B00DEC90B /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		BD98CBAE2A9DDF6000A93B1E /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		BD98CBAF2A9DDF6000A93B1E /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		BD98CBB02A9DDF6100A93B1E /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		BD98CBB12A9DDF6100A93B1E /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		BDCD50D12A83AAE000130356 /* WireWheelClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WireWheelClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCD50D42A83AAE000130356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDCD50D62A83AAE000130356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCD51062A83C61100130356 /* WireWheelSDK in Frameworks */,
+				BDBB66C62AA26A9900666865 /* WireWheelSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD98CBAD2A9DDF3300A93B1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD98CBB12A9DDF6100A93B1E /* OpenSans-Bold.ttf */,
+				BD98CBAF2A9DDF6000A93B1E /* OpenSans-Medium.ttf */,
+				BD98CBAE2A9DDF6000A93B1E /* OpenSans-Regular.ttf */,
+				BD98CBB02A9DDF6100A93B1E /* OpenSans-SemiBold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BDCD50C82A83AAE000130356 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +126,17 @@
 		BDCD50D32A83AAE000130356 /* WireWheelClient */ = {
 			isa = PBXGroup;
 			children = (
+				BD98CBAD2A9DDF3300A93B1E /* Resources */,
 				BDCD50D42A83AAE000130356 /* AppDelegate.swift */,
 				BDCD50D62A83AAE000130356 /* SceneDelegate.swift */,
 				BDCD50D82A83AAE000130356 /* ViewController.swift */,
+				BD97ABAB2A95464B00DEC90B /* PrivacyPolicyViewController.swift */,
+				BD5E3EA42A8E5E70006E123E /* Constant.swift */,
 				BDCD50DA2A83AAE000130356 /* Main.storyboard */,
 				BDCD50DD2A83AAE100130356 /* Assets.xcassets */,
 				BDCD50DF2A83AAE100130356 /* LaunchScreen.storyboard */,
 				BDCD50E22A83AAE100130356 /* Info.plist */,
+				BD95D9582AA0C2BC00A603D1 /* String+Extension.swift */,
 			);
 			path = WireWheelClient;
 			sourceTree = "<group>";
@@ -146,7 +175,7 @@
 			);
 			name = WireWheelClient;
 			packageProductDependencies = (
-				BDCD51052A83C61100130356 /* WireWheelSDK */,
+				BDBB66C52AA26A9900666865 /* WireWheelSDK */,
 			);
 			productName = WireWheelClient;
 			productReference = BDCD50D12A83AAE000130356 /* WireWheelClient.app */;
@@ -221,7 +250,7 @@
 			);
 			mainGroup = BDCD50C82A83AAE000130356;
 			packageReferences = (
-				BDCD51042A83C61100130356 /* XCRemoteSwiftPackageReference "WireWheelSDK" */,
+				BDBB66C42AA26A9900666865 /* XCRemoteSwiftPackageReference "WireWheelSDK" */,
 			);
 			productRefGroup = BDCD50D22A83AAE000130356 /* Products */;
 			projectDirPath = "";
@@ -240,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCD50E12A83AAE100130356 /* LaunchScreen.storyboard in Resources */,
+				BD98CBB52A9DDF6100A93B1E /* OpenSans-Bold.ttf in Resources */,
 				BDCD50DE2A83AAE100130356 /* Assets.xcassets in Resources */,
+				BD98CBB22A9DDF6100A93B1E /* OpenSans-Regular.ttf in Resources */,
+				BD98CBB32A9DDF6100A93B1E /* OpenSans-Medium.ttf in Resources */,
+				BD98CBB42A9DDF6100A93B1E /* OpenSans-SemiBold.ttf in Resources */,
 				BDCD50DC2A83AAE000130356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +301,10 @@
 			files = (
 				BDCD50D92A83AAE000130356 /* ViewController.swift in Sources */,
 				BDCD50D52A83AAE000130356 /* AppDelegate.swift in Sources */,
+				BD97ABAC2A95464B00DEC90B /* PrivacyPolicyViewController.swift in Sources */,
 				BDCD50D72A83AAE000130356 /* SceneDelegate.swift in Sources */,
+				BD95D9592AA0C2BC00A603D1 /* String+Extension.swift in Sources */,
+				BD5E3EA52A8E5E70006E123E /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -428,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,7 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZBLGZ7QQXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WireWheelClient/Info.plist;
@@ -453,6 +489,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZBLGZ7QQXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WireWheelClient/Info.plist;
@@ -481,6 +518,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -612,7 +650,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BDCD51042A83C61100130356 /* XCRemoteSwiftPackageReference "WireWheelSDK" */ = {
+		BDBB66C42AA26A9900666865 /* XCRemoteSwiftPackageReference "WireWheelSDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/wraza0116/WireWheelSDK.git";
 			requirement = {
@@ -623,9 +661,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BDCD51052A83C61100130356 /* WireWheelSDK */ = {
+		BDBB66C52AA26A9900666865 /* WireWheelSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BDCD51042A83C61100130356 /* XCRemoteSwiftPackageReference "WireWheelSDK" */;
+			package = BDBB66C42AA26A9900666865 /* XCRemoteSwiftPackageReference "WireWheelSDK" */;
 			productName = WireWheelSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
