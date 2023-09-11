@@ -25,6 +25,8 @@ class ViewController: UIViewController {
        
         //Delegate
         wireWheelSDKSwift.delegate = self
+        
+        wireWheelSDKSwift.navigationTab = .consent
        
         /*wireWheelSDKSwift.verifiedEmailAddress = "wasim@simpalm.com"
         
@@ -88,6 +90,10 @@ class ViewController: UIViewController {
         wireWheelSDKSwift.dialogVerificationCodePlacerholder = "Verify"
         wireWheelSDKSwift.dialogVerificationSubmitButtonText = "Send Email"
         wireWheelSDKSwift.dialogVerificationVerifyButtonText = "Email Verify"*/
+        
+        if sender.tag == 2 {
+            wireWheelSDKSwift.navigationTab = .communication
+        }
     }
 }
 

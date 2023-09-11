@@ -41,13 +41,53 @@
                                     <action selector="btnOpenSDKPressedAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybb-6A-NQd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3v3-Xc-63R">
+                                <rect key="frame" x="110.66666666666669" y="475" width="172" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open Consents">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnOpenSDKPressedAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZWX-Lg-fv1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txu-dq-Gjt">
+                                <rect key="frame" x="108" y="543" width="177" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open Prefences">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnOpenSDKPressedAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KLZ-Gp-ROe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="rH5-cl-RgD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3yF-YX-HPp"/>
+                            <constraint firstItem="3v3-Xc-63R" firstAttribute="top" secondItem="rH5-cl-RgD" secondAttribute="bottom" constant="30" id="5Az-Jv-obv"/>
+                            <constraint firstItem="3v3-Xc-63R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Sv-tx-fyS"/>
+                            <constraint firstItem="txu-dq-Gjt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DGn-KV-gWJ"/>
                             <constraint firstItem="rH5-cl-RgD" firstAttribute="top" secondItem="kYr-Bj-lDg" secondAttribute="bottom" constant="50" id="Gfs-9U-GxQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kYr-Bj-lDg" secondAttribute="trailing" constant="30" id="UlF-qV-FY6"/>
+                            <constraint firstItem="txu-dq-Gjt" firstAttribute="top" secondItem="3v3-Xc-63R" secondAttribute="bottom" constant="30" id="Un2-Wm-0s7"/>
                             <constraint firstItem="rH5-cl-RgD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hY6-tF-zfB"/>
                             <constraint firstItem="kYr-Bj-lDg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="v92-y6-Xty"/>
                         </constraints>
