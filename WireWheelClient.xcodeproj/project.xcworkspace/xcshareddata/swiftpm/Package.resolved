@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wraza0116/WireWheelSDK.git",
       "state" : {
-        "revision" : "3a0a16b590c53a9f9c11ff3003494f507d03f00a",
-        "version" : "1.0.30"
+        "revision" : "8dc4e339b3624cef087aa400141346667615371f",
+        "version" : "1.0.31"
       }
     }
   ],

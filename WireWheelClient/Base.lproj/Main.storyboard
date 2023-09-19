@@ -60,9 +60,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txu-dq-Gjt">
-                                <rect key="frame" x="108" y="543" width="177" height="38"/>
+                                <rect key="frame" x="98.666666666666671" y="543" width="195.66666666666663" height="38"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Open Prefences">
+                                <buttonConfiguration key="configuration" style="plain" title="Open Preferences">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
